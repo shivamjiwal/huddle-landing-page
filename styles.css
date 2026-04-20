@@ -9,14 +9,14 @@ body {
     height: 100vh;
     z-index: -1; /* ensures it stays in the background behind content */
     /* Apply only the image asset here */
-    background: url('./images/bg-desktop.svg') no-repeat top right fixed hsl(257, 40%, 49%)  ;
+    background: url('bg-desktop.svg') no-repeat top right fixed hsl(257, 40%, 49%)  ;
     background-size: cover;
     padding:48px 70px 48px 60px;
 }
 
 @media (max-width: 768px) {
     body {
-        background: url('./images/bg-mobile.svg') no-repeat top right fixed hsl(257, 40%, 49%) ;
+        background: url('bg-mobile.svg') no-repeat top right fixed hsl(257, 40%, 49%) ;
         width:100vh;
     }
 
